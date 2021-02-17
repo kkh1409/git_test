@@ -1,0 +1,16 @@
+0. Create a local git repository
+> git init
+
+0. Create a new branch
+> git checkout -b 'branch name'
+
+0. Add files to the staging environment
+> git add
+
+0. Commit files
+> git commit -m 'description'
+
+
+git add . <- file add
+git commit -m 'message'
+git push origin 'branch'
