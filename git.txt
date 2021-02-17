@@ -1,14 +1,38 @@
 0. Create a local git repository
 > git init
+> git
 
 0. Create a new branch
-> git checkout -b 'branch name'
+> git checkout -b 'branch_name'
+
 
 0. Add files to the staging environment
 > git add
 
 0. Commit files
 > git commit -m 'description'
+
+
+0. Create a new repository on GitHub
+- '+' -> 'New repository'
+> git remote add origin https
+> git push -u origin main
+
+0. Push a branch to Github
+> git push origin branch_name
+
+
+0. Pull request(PR)
+- 'Compare & pull request'
+
+0. Merge a PR
+- 'Merge pul request'
+- delete the branch on GitHub
+
+
+0. Get changes on GitHub back to your computer
+> git pull origin main
+or > git pull
 
 
 git add . <- file add
