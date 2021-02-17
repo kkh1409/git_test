@@ -1,9 +1,12 @@
 0. Create a local git repository
 > git init
-> git
+> git branch -m main  # change master -> main
 
 0. Create a new branch
 > git checkout -b 'branch_name'
+
+0. Delete a branch
+> git branch -d branch_name
 
 
 0. Add files to the staging environment
